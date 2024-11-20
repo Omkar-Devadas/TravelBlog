@@ -1,0 +1,41 @@
+#main-navigation {
+    background-color: #390281;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+#storedposts
+{
+    margin: 8rem auto 3rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.25) ;
+    background-color: white;
+    width: 90%;
+    max-width: 35rem;
+} 
+#storedposts ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#storedposts li{
+    padding: 1rem;
+    margin: 1rem 0;
+
+}
+
+#storedposts a{
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    text-decoration: none;
+    border:1px solid #ccc;
+    color: rgb(39, 30, 30);
+    font-weight: bold;
+}
+
+#storedposts a:hover,
+#storedposts a:active{
+    background-color: #a7f5ae;
+}
